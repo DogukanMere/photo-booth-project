@@ -1,5 +1,6 @@
 import './App.css';
 import VideoComponent from './components/VideoComponent';
+import Events from './sections/Events';
 import Header from './sections/Header';
 import Intro from './sections/Intro';
 
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <VideoComponent />
       <Intro />
+      <Events />
     </div>
   );
 }
