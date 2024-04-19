@@ -2,8 +2,10 @@ import React from 'react';
 
 const VideoComponent = () => {
   return (
-    <div className='w-full h-[calc(100vh-90px)] relative'>
-      <video src='/sample.mp4' autoPlay={true} className='w-full h-full object-cover z-10' loop></video>
+    <div className='w-full h-full relative'>
+      <div className='h-screen w-screen'>
+        <video src='/interactive_video.mp4' autoPlay={true} className='w-full h-full object-contain z-10' loop></video>
+      </div>
       <div className='z-20 text-paper absolute bottom-[17%] left-[10%] text-[3rem] select-none'>
         <h2>360 Photo Booth</h2>
         <p className='text-[1.5rem] max-w-[30rem]'>Elevate your event to unforgettable heights with our immersive 360° video booth, ensuring every guest leaves with cherished memories that last a lifetime.</p>
