@@ -6,11 +6,12 @@ import Intro from './sections/Intro';
 
 function App() {
   return (
-    <div className='min-h-screen min-w-screen bg-grey700'>
+    <div className='min-h-screen bg-black overflow-x-hidden scroll-mx-0'>
       <Header />
       <VideoComponent />
       <Intro />
       <Events />
+      <div className='w-full h-[80vh] bg-primaryLight'>d</div>
     </div>
   );
 }

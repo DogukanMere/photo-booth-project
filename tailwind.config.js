@@ -14,14 +14,14 @@ export default {
       fcPrimary: '#3F3D3C',
 
       // primary
-      primaryLight: '#e254ff',
+      primaryLight: '#463f3a',
       primaryMain: '#b400ff',
       primaryDark: '#47008c',
       primary200: '#931dff',
       primary800: '#270063',
 
       // secondary
-      secondaryLight: '#FFA245',
+      secondaryLight: '#D6CCC2',
       secondaryMain: '#FA8107',
       secondaryDark: '#C96004',
       secondary200: '#FFB742',
