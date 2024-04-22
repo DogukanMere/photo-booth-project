@@ -1,6 +1,8 @@
 import React from 'react';
 import { BsFillBuildingsFill } from 'react-icons/bs';
 import { GiDiamondRing } from 'react-icons/gi';
+import { LuHeartHandshake } from 'react-icons/lu';
+import { FaBirthdayCake } from 'react-icons/fa';
 import EventItem from '../components/EventItem';
 
 const Events = () => {
@@ -9,30 +11,12 @@ const Events = () => {
       {/* Top Flex For cards */}
       <div className='grid grid-cols-1 md:grid-cols-2 max-w-[1420px] mx-auto items-center justify-center px-10 gap-x-4 gap-y-4'>
         <div className='z-20 absolute top-[-70px] mx-auto flex justify-start text-[3rem] select-none w-[1420px]'>
-          <button className='bg-secondaryLight px-10 py-5 text-primaryLight rounded-t-2xl text-[1.3rem] font-semibold tracking-tight'>Events</button>
+          <h3 className='bg-secondaryLight px-10 py-5 text-primaryLight rounded-t-2xl text-[1.3rem] font-semibold tracking-tight'>Events</h3>
         </div>
-        <EventItem
-          header={'Corporate'}
-          text={`Elevate your corporate brand presence with our specialized 360 photo booth service. We excel in aligning closely with corporations to ensure a tailored experience that resonates with their brand identity. Our state-of-the-art technology captivates attendees, driving social media engagement for maximum corporate visibility. Experience innovation and set your brand apart with our immersive showcase. Step into the future of corporate brand visibility and make a lasting impact with our
-            360 photo booth service.`}
-          iconReact={<BsFillBuildingsFill size={90} className='text-paper' />}
-        />
-        <EventItem
-          header={'Wedding'}
-          text={`Step into our 360 booth and embark on your special journey where memories come to life in stunning 360-degree detail. With endless possibilities for personalization, from themed backgrounds to quirky props, each session is a unique expression of your love story. It's not just a photo booth; it's an immersive experience that sparks laughter, fosters connection, and creates unforgettable moments for you and your guests.`}
-          iconReact={<GiDiamondRing size={80} className='text-paper' />}
-        />
-        <EventItem
-          header={'Corporate'}
-          text={`Elevate your corporate brand presence with our specialized 360 photo booth service. We excel in aligning closely with corporations to ensure a tailored experience that resonates with their brand identity. Our state-of-the-art technology captivates attendees, driving social media engagement for maximum corporate visibility. Experience innovation and set your brand apart with our immersive showcase. Step into the future of corporate brand visibility and make a lasting impact with our
-            360 photo booth service.`}
-          iconReact={<BsFillBuildingsFill size={90} className='text-paper' />}
-        />
-        <EventItem
-          header={'Wedding'}
-          text={`Step into our 360 booth and embark on your special journey where memories come to life in stunning 360-degree detail. With endless possibilities for personalization, from themed backgrounds to quirky props, each session is a unique expression of your love story. It's not just a photo booth; it's an immersive experience that sparks laughter, fosters connection, and creates unforgettable moments for you and your guests.`}
-          iconReact={<GiDiamondRing size={80} className='text-paper' />}
-        />
+        <EventItem header={'Corporate Events'} text={`Boost your corporate brand with our 360 photo booth service. Tailored for your identity, our tech sparks social buzz, setting you apart. Step into the future of brand visibility and leave a lasting impression.`} speech={`Let your event's Aura shines with your brand`} iconReact={<BsFillBuildingsFill size={90} className='text-paper' />} />
+        <EventItem header={'Weddings'} text={`Step into our 360 booth for a personalized journey through vivid memories. With themed backgrounds and props, create unforgettable moments that spark laughter and love.`} speech={`Embrace the Aura of Love`} iconReact={<GiDiamondRing size={80} className='text-paper' />} />
+        <EventItem header={'Charity Events'} text={`Transform Your Charity Event with 360 Photobooth Magic! Immerse Your Attendees in Every Angle of Giving, Creating Unforgettable Moments that Inspire and Delight.`} speech={`Aura of Giving, 360 Memories Lasting`} iconReact={<LuHeartHandshake size={90} className='text-paper' />} />
+        <EventItem header={'Birthday Parties'} text={`Add a wow factor to your celebration with our immersive 360 booth. Capture every angle of the fun, ensuring unforgettable memories that wow your guests. Personalize your experience with themed props and backdrops, creating cherished moments to treasure forever.`} speech={`Make your birthday unforgettable`} iconReact={<FaBirthdayCake size={90} className='text-paper' />} />
       </div>
     </div>
   );

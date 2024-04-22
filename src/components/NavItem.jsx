@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const NavItem = ({ itemName, link }) => {
   return (
     <div>
-      <Link to={link} className={`text-fcPrimary text-[0.9rem]`}>
+      <Link to={link} className={`text-primaryLight text-[0.9rem] font-[400] hover:brightness-[2.5] transition-all duration-150`}>
         {itemName}
       </Link>
     </div>
