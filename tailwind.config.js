@@ -6,6 +6,7 @@ export default {
     colors: {
       paper: '#ffffff',
       black: '#000',
+      blackTransDark: 'rgba(0, 0, 0, 0.8)',
       blackTrans: 'rgba(0, 0, 0, 0.6)',
       blackTransLight: 'rgba(0, 0, 0, 0.3)',
       blackTransMain: 'rgba(0, 0, 0, 0.5)',
