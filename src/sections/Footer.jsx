@@ -10,7 +10,7 @@ const Footer = () => {
       {/* Grid Container */}
       <div className='grid grid-cols-1 lg:grid-cols-2 max-w-[1420px] mx-auto items-center justify-center px-10 gap-x-4 gap-y-10 my-10 text-nowrap border-b-[2px] border-grey300 pt-4 pb-12'>
         {/* Left Grid Logo */}
-        <div className='w-full h-full flex flex-col items-center'>
+        <div className='w-full h-full flex flex-col items-center lg:max-w-[10rem]'>
           <div className='flex flex-nowrap items-start justify-center h-full gap-x-3'>
             {/* Logo */}
             <Link to={`/`} className='flex-1 flex hover:brightness-150 transition-all duration-500'>
