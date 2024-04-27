@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const VideoComponent = () => {
   return (
@@ -22,7 +23,9 @@ const VideoComponent = () => {
               <p className='text-[1.3rem] sm:text-[1.8rem] lg:text-[1.5rem]'>Elevate your event to unforgettable heights with our immersive 360° video booth, ensuring every guest leaves with cherished memories that last a lifetime.</p>
             </div>
             <div className='px-10 w-full lg:w-fit'>
-              <button className='w-full bg-secondaryLight brightness-[1.2] border-4 rounded-2xl tracking-wide leading-7 border-secondaryLight px-16 py-4 text-primaryLight rounded-4xl text-[1.3rem] hover:bg-blackTrans hover:text-paper transition-all duration-300 uppercase font-bold'>Book Now</button>
+              <Link to={'/contact'} className='w-full bg-secondaryLight brightness-[1.2] border-4 rounded-2xl tracking-wide leading-7 border-secondaryLight px-16 py-4 text-primaryLight rounded-4xl text-[1.3rem] hover:bg-blackTrans hover:text-paper transition-all duration-300 uppercase font-bold'>
+                Book Now
+              </Link>
             </div>
           </div>
         </div>

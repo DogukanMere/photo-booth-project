@@ -59,7 +59,7 @@ const Footer = () => {
                 <Link to={`https://www.google.com`}>
                   <FaFacebookSquare className={`text-[1.65rem] ${commonStyle.link}`} />
                 </Link>
-                <Link to={`https://www.google.com`}>
+                <Link to={`https://www.instagram.com/auraphotobooth.ca/`}>
                   <AiFillInstagram className={`text-[2rem] ${commonStyle.link}`} />
                 </Link>
                 <Link to={`https://www.google.com`}>

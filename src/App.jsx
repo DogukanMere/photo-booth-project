@@ -6,10 +6,11 @@ import Footer from './sections/Footer';
 import Contact from './pages/Contact';
 import Weddings from './pages/Weddings';
 import ErrorPage from './components/ErrorPage';
+import Glambot from './pages/Glambot';
 
 function App() {
   return (
-    <div className='min-h-screen bg-black overflow-x-hidden scroll-mx-0 relative'>
+    <div className='min-h-[100vh] bg-black overflow-x-hidden scroll-mx-0 relative'>
       <Header />
       {/* Margin for Navbar | safe space | height of navbar */}
       <div className='mt-[100px] md:mt-[120px]'></div>
@@ -20,6 +21,7 @@ function App() {
           <Route path='' index element={<Homepage />} />
           <Route path='contact' element={<Contact />} />
           <Route path='wedding' element={<Weddings />} />
+          <Route path='glambot' element={<Glambot />} />
           <Route path='*' element={<ErrorPage />} />
         </Route>
       </Routes>
