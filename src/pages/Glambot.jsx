@@ -10,7 +10,7 @@ const Glambot = () => {
       <div className='w-screen bg-paper text-[0.9rem]'>
         {/* FIRST TOP DIV  | Image & What is glambot */}
         <div className='max-w-[1420px] mx-auto bg-paper flex flex-col items-center pb-10 gap-y-10'>
-          <div className='flex justify-center w-screen max-h-[40vh] relative'>
+          <div className='flex justify-center w-screen min-h-[50vh] max-h-[70vh] relative'>
             <p className='absolute h-full w-full bg-blackTransLight'></p>
             <img src='/glambot_header.png' alt='glambot image' className='w-full object-cover ' />
             <h1 className='absolute text-paper text-[3rem] tracking-wide sm:text-[4rem] md:text-[6rem] font-semibold bottom-[5%] left-[10%]'>GlamBot</h1>
@@ -33,7 +33,7 @@ const Glambot = () => {
         {/* SECOND DIV  | Details */}
         <div className='max-w-[1420px] mx-auto bg-none flex flex-col sm:flex-row items-center py-20 gap-y-10'>
           <div className='w-full sm:w-1/2 order-2 sm:order-1'>
-            <div className='w-full flex flex-col items-start gap-y-4 px-5 text-fcPrimary leading-8 text-[1rem] tracking-wide'>
+            <div className='w-full flex flex-col items-start gap-y-4 px-5 text-fcPrimary leading-8 text-[1rem] tracking-wide sm:pl-10 pl-3'>
               <h2 className='mb-2 text-[1.3rem] sm:text-[2rem] font-bold text-primaryLight text-center w-full leading-[2rem] sm:leading-[3rem] sm:text-start uppercase'>Lights, Camera, Glamour! Step onto the Red Carpet with Glambot</h2>
               <div className='flex justify-center flex-col items-start px-5 sm:px-0 gap-y-3'>
                 <p className='text-center w-full sm:text-start uppercase tracking-[0.3rem]'>for everybody</p>
@@ -62,12 +62,12 @@ const Glambot = () => {
       </div>
       <div className='w-screen bg-primaryLight text-[0.9rem] relative'>
         {/* THIRD DIV  | CAPTURE */}
-        <div className='max-w-[1420px] min-h-[30rem] mx-auto px-5 text-paper bg-primaryLight flex flex-col items-center justify-center  text-[2.2rem] sm:text-[3rem] font-semibold text-center tracking-wide'>
+        <div className='max-w-[1420px] min-h-[30rem] mx-auto px-5 text-paper bg-primaryLight flex flex-col items-center justify-center text-[2.2rem] sm:text-[3rem] font-semibold text-center tracking-wide py-[10rem]'>
           <img src='/spot_light1.png' alt='spot light' className='absolute top-0 left-0 max-h-[30rem] select-none' />
           <img src='/spot_light2.png' alt='spot light' className='absolute top-0 right-0 max-h-[30rem] select-none' />
           <p className='absolute h-full w-full z-10'></p>
           <p className='mt-20'>Let Glambot Capture Your Aura</p>
-          <p>Because Everyone Deserves Their Star Moment!</p>
+          <p>Because Everyone Deserves Their Star</p>
           <p className='border-b-[2px] border-b-paper'>Moment!</p>
         </div>
       </div>
@@ -75,7 +75,7 @@ const Glambot = () => {
         {/*  FOURTH DIV | STEPS */}
         <div className='max-w-[1420px] mx-auto bg-paper flex-col items-center justify-center pb-10 gap-y-10'>
           <h2 className='mb-2 text-[2rem] sm:text-[2rem] font-bold text-primaryLight text-center w-full leading-[2rem] sm:leading-[3rem] sm:text-start uppercase pt-10 flex justify-center items-center'>Steps</h2>
-          <div className='grid grid-cols-1 sm:grid-cols-3 justify-center gap-x-4 gap-y-4 py-10 px-4'>
+          <div className='grid grid-cols-1 md:grid-cols-3 justify-center gap-x-4 gap-y-4 py-10 px-4'>
             <FeatureCard cls={'bg-secondaryLight col-span-1 w-full'} icon={<PiNumberCircleOneBold className='text-[6rem] text-primaryLight self-center' />} text={`Step onto the red carpet and let your inner star shine! Strike your most fabulous pose and get ready to dazzle.`} header={`1. Prepare your movement Pose`} />
             <FeatureCard cls={'bg-secondaryLight col-span-1 w-full'} icon={<PiNumberCircleTwoBold className='text-[6rem] text-primaryLight self-center' />} text={`We'll give you a countdown as our slow-motion camera begins to capture video clip in all its glamourous glory.`} header={`2. Lights, Camera, Action!`} />
             <FeatureCard cls={'bg-secondaryLight col-span-1 w-full'} icon={<PiNumberCircleThreeBold className='text-[6rem] text-primaryLight self-center' />} text={`Capture Every Angle with Our Digital 360 Rotating Camera!`} header={`1.Prepare your movement Pose`} />

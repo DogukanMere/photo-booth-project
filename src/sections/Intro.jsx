@@ -2,7 +2,7 @@ import React from 'react';
 
 const Intro = () => {
   return (
-    <div className='w-screen min-h-[35rem] flex flex-col justify-center py-[6rem] pb-[7rem] bg-paper relative'>
+    <div className='w-screen min-h-[35rem] flex flex-col justify-center py-[1rem] md:pt-[3rem] pb-[4rem] bg-paper relative'>
       {/* Grid Container */}
       <div className='grid grid-cols-1 lg:grid-cols-2 max-w-[1420px] mx-auto items-center justify-center px-10 gap-x-4 gap-y-4 my-4 mb-14'>
         <div className='z-20 absolute top-[-70px] mx-auto flex justify-start text-[3rem] select-none w-[1420px]'>
@@ -17,7 +17,7 @@ const Intro = () => {
         </div>
         {/* Right */}
         <div className='order-1 lg:order-2 w-full h-full flex items-center justify-center'>
-          <div className='max-w-[42rem]'>
+          <div className='max-w-[19rem] sm:max-w-[30rem]'>
             <img src='/intro_img.png' alt='photo' className='w-full' />
           </div>
         </div>

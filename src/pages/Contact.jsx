@@ -71,7 +71,7 @@ const Contact = () => {
             Back to the home page
           </Link>
         </div>
-
+        <h2 className='mb-10 text-[1.4rem] sm:text-[2rem] font-bold text-primaryLight text-center w-full leading-[2rem] sm:leading-[3rem] sm:text-start uppercase py-2 border-b-2 border-primaryLight flex justify-center items-center'>Contact Us</h2>
         <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
           {() => (
             <Form className={`${!state.succeeded ? 'flex' : 'hidden'} flex-col gap-y-10 justify-center px-5 min-w-[280px] sm:min-w-[450px] md:min-w-[600px]`}>
@@ -163,7 +163,7 @@ const Contact = () => {
                 <label htmlFor='description' className={labelStyle}>
                   Tell me more about this project
                 </label>
-                <Field as='textarea' name='description' placeholder='What do I need to know about the project?' rows='4' className={`border-[1px] border-grey300 px-2 py-2 text-[0.8rem] font-light`} />
+                <Field as='textarea' name='description' placeholder='What do I need to know about the project?' rows='4' className={`border-[1px] border-grey300 px-2 py-2 text-[0.8rem] font-light outline-primaryLight`} />
                 <ErrorMessage name='description' component='div' className={errorStyle} />
               </div>
 
