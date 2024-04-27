@@ -5,6 +5,7 @@ import Header from './sections/Header';
 import Footer from './sections/Footer';
 import Contact from './pages/Contact';
 import Weddings from './pages/Weddings';
+import ErrorPage from './components/ErrorPage';
 
 function App() {
   return (
@@ -15,9 +16,12 @@ function App() {
 
       {/* All routes */}
       <Routes>
-        <Route path='/' element={<Homepage />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/wedding' element={<Weddings />} />
+        <Route path='/*'>
+          <Route path='' index element={<Homepage />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='wedding' element={<Weddings />} />
+          <Route path='*' element={<ErrorPage />} />
+        </Route>
       </Routes>
       <Footer />
     </div>

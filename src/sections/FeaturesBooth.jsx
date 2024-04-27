@@ -19,7 +19,6 @@ const FeaturesBooth = () => {
         {/* Iphone Video */}
         <div className='flex flex-col gap-y-5 items-center justify-center col-span-1 overflow-hidden rounded-[2.6rem] lg:rounded-[4rem] max-w-[25rem] mx-auto'>
           <video
-            src='/video_mobile.mp4'
             autoPlay={true}
             className='z-10 h-full object-cover w-[15rem] lg:w-[25rem]'
             loop
@@ -27,7 +26,9 @@ const FeaturesBooth = () => {
             playsInline
             onClick={(e) => {
               e.preventDefault();
-            }}></video>
+            }}>
+            <source src='/video_mobile.mp4' type='video/mp4' />
+          </video>
         </div>
       </div>
     </div>
