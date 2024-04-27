@@ -10,8 +10,8 @@ const Footer = () => {
       {/* Grid Container */}
       <div className='grid grid-cols-1 lg:grid-cols-2 max-w-[1420px] mx-auto items-center justify-center px-10 gap-x-4 gap-y-10 my-10 text-nowrap border-b-[2px] border-grey300 pt-4 pb-12'>
         {/* Left Grid Logo */}
-        <div className='w-full h-full flex flex-col items-center lg:max-w-[10rem]'>
-          <div className='flex flex-nowrap items-start justify-center h-full gap-x-3'>
+        <div className='w-full flex flex-col items-center lg:max-w-[10rem]'>
+          <div className='flex flex-nowrap items-start justify-center gap-x-3'>
             {/* Logo */}
             <Link to={`/`} className='flex-1 flex hover:brightness-150 transition-all duration-500'>
               <h1 className='text-fcPrimary flex items-center flex-nowrap gap-x-3'>
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
 
         {/* Right Grid Links */}
-        <div className='w-full h-full grid grid-cols-2 grid-rows-2 gap-x-[3rem] sm:gap-x-[4rem] md:gap-x-[8rem]'>
+        <div className='w-full grid grid-cols-2 grid-rows-2 gap-x-[3rem] sm:gap-x-[4rem] md:gap-x-[8rem]'>
           {/* Left Flex 2 | Products | Events */}
           <div className='grid grid-rows-2 gap-y-10 row-span-2 col-span-1'>
             <div className='flex flex-nowrap flex-col items-start text-[0.9rem] text-paper gap-y-3'>
@@ -39,7 +39,7 @@ const Footer = () => {
               <Link to={``} className={`${commonStyle.link}`}>
                 Corporate
               </Link>
-              <Link to={``} className={`${commonStyle.link}`}>
+              <Link to={`wedding`} className={`${commonStyle.link}`}>
                 Weddings
               </Link>
             </div>
@@ -48,7 +48,7 @@ const Footer = () => {
           <div className='grid grid-rows-2 items-start gap-y-10 row-span-2 col-span-1'>
             <div className='flex flex-nowrap flex-col items-start text-[0.9rem] text-paper gap-y-3'>
               <h4 className='font-bold text-[0.9rem] row-span-1'>Quick Links</h4>
-              <Link to={``} className={`${commonStyle.link}`}>
+              <Link to={`contact`} className={`${commonStyle.link}`}>
                 Contact
               </Link>
             </div>

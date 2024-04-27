@@ -1,17 +1,25 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import VideoComponent from './components/VideoComponent';
-import Events from './sections/Events';
-import FeaturesBooth from './sections/FeaturesBooth';
+import Homepage from './pages/Homepage';
 import Header from './sections/Header';
-import Intro from './sections/Intro';
+import Footer from './sections/Footer';
+import Contact from './pages/Contact';
+import Weddings from './pages/Weddings';
 
 function App() {
   return (
-    <div className='min-h-screen bg-black overflow-x-hidden scroll-mx-0'>
-      <VideoComponent />
-      <Intro />
-      <FeaturesBooth />
-      <Events />
+    <div className='min-h-screen bg-black overflow-x-hidden scroll-mx-0 relative'>
+      <Header />
+      {/* Margin for Navbar | safe space | height of navbar */}
+      <div className='mt-[100px] md:mt-[120px]'></div>
+
+      {/* All routes */}
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/wedding' element={<Weddings />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

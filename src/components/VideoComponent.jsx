@@ -4,7 +4,16 @@ const VideoComponent = () => {
   return (
     <div className='h-[calc(100vh-100px)] md:h-[calc(100vh-120px)] w-screen relative'>
       <div className='h-full w-full relative'>
-        <video src='/interactive_video.mp4' autoPlay={true} className='z-10 w-full h-full object-cover' loop muted></video>
+        <video
+          src='/interactive_video.mp4'
+          autoPlay={true}
+          className='z-10 w-full h-full object-cover select-none'
+          loop
+          muted
+          playsInline
+          onClick={(e) => {
+            e.preventDefault();
+          }}></video>
         <div className='z-20 text-paper absolute bottom-[17%] text-[3rem] select-none flex w-full flex-col lg:flex-row lg:justify-around lg:items-center'>
           <div className='flex flex-col lg:flex-row items-center justify-start lg:justify-around w-full gap-y-8'>
             <div className='w-full min-w-[250px] lg:w-[40rem] px-10'>

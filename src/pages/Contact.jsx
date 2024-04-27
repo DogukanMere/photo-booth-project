@@ -42,20 +42,20 @@ const Contact = () => {
   const [focusedInput, setFocusedInput] = useState(null);
 
   useEffect(() => {
-    return () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
+    // return () => {
+    //   window.scrollTo({ top: 0, behavior: 'smooth' });
+    // };
   }, []);
 
   if (state.succeeded) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  window.onbeforeunload = () => {
-    for (const form of document.getElementsByTagName('form')) {
-      form.reset();
-    }
-  };
+  // window.onbeforeunload = () => {
+  //   for (const form of document.getElementsByTagName('form')) {
+  //     form.reset();
+  //   }
+  // };
 
   const divStyle = `flex flex-col gap-y-1`;
   const errorStyle = `text-errorMain text-[0.8rem]`;

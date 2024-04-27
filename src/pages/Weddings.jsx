@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Weddings = () => {
-  return <div>Weddings</div>;
+  return <div className='min-h-screen'>Weddings</div>;
 };
 
 export default Weddings;
