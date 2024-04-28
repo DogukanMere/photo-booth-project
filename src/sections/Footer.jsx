@@ -27,19 +27,19 @@ const Footer = () => {
           <div className='grid grid-rows-2 gap-y-10 row-span-2 col-span-1'>
             <div className='flex flex-nowrap flex-col items-start text-[0.9rem] text-paper gap-y-3'>
               <h4 className='font-bold text-[0.9rem] row-span-1'>Products</h4>
-              <Link to={``} className={`${commonStyle.link}`}>
+              <Link to={`/`} className={`${commonStyle.link}`}>
                 360 Booth
               </Link>
-              <Link to={``} className={`${commonStyle.link}`}>
+              <Link to={`/glambot`} className={`${commonStyle.link}`}>
                 Glambot
               </Link>
             </div>
             <div className='flex flex-nowrap flex-col items-start text-[0.9rem] text-paper gap-y-3 row-span-1'>
               <h4 className='font-bold'>Events</h4>
-              <Link to={``} className={`${commonStyle.link}`}>
+              <Link to={`/corporate`} className={`${commonStyle.link}`}>
                 Corporate
               </Link>
-              <Link to={`wedding`} className={`${commonStyle.link}`}>
+              <Link to={`/wedding`} className={`${commonStyle.link}`}>
                 Weddings
               </Link>
             </div>
@@ -48,7 +48,7 @@ const Footer = () => {
           <div className='grid grid-rows-2 items-start gap-y-10 row-span-2 col-span-1'>
             <div className='flex flex-nowrap flex-col items-start text-[0.9rem] text-paper gap-y-3'>
               <h4 className='font-bold text-[0.9rem] row-span-1'>Quick Links</h4>
-              <Link to={`contact`} className={`${commonStyle.link}`}>
+              <Link to={`/contact`} className={`${commonStyle.link}`}>
                 Contact
               </Link>
             </div>
