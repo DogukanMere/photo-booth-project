@@ -15,7 +15,7 @@ const Corporate = () => {
           <div className='flex justify-center w-screen min-h-[80vh] sm:min-h-[40vh] max-h-[60vh] relative'>
             <p className='absolute h-full w-full bg-blackTrans'></p>
             <img src='/corporate_header.png' alt='glambot image' className='w-full object-cover ' />
-            <div className='absolute text-paper bottom-[14%] sm:bottom-[12%] left-[1%] sm:left-[10%] flex flex-col sm:flex-row px-5 gap-x-2 gap-y-6'>
+            <div className='absolute text-paper bottom-[14%] sm:bottom-[14%] left-[1%] sm:left-[10%] flex flex-col sm:flex-row px-5 gap-x-2 gap-y-6'>
               <div className='w-full sm:w-[60%]'>
                 <h1 className='text-[2rem] tracking-wide sm:text-[2.5rem] md:text-[4rem] font-semibold'>Corporate / Charity</h1>
                 <p className='w-full text-[1rem] sm:text-[1.2rem] mt-2'>We take your corporate event seriously, and we're here to support you every step of the way. We understand the importance of your mission and stand ready to elevate your event experience.</p>

@@ -56,13 +56,13 @@ const Footer = () => {
               <h4 className='font-bold text-[0.9rem]'>Get in touch</h4>
               {/* SOCIAL LINKS */}
               <div className='flex flex-nowrap gap-x-4 items-center justify-start'>
-                <Link to={`https://www.google.com`}>
+                <Link to={`https://www.facebook.com/profile.php?id=61558600637540`}>
                   <FaFacebookSquare className={`text-[1.65rem] ${commonStyle.link}`} />
                 </Link>
                 <Link to={`https://www.instagram.com/auraphotobooth.ca/`}>
                   <AiFillInstagram className={`text-[2rem] ${commonStyle.link}`} />
                 </Link>
-                <Link to={`https://www.google.com`}>
+                <Link to={`https://www.tiktok.com/@aura.photobooth`}>
                   <FaTiktok className={`text-[1.3rem] ${commonStyle.link}`} />
                 </Link>
               </div>
