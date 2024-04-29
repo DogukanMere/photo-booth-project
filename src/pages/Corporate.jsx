@@ -51,10 +51,10 @@ const Corporate = () => {
         <div className='max-w-[1420px] mx-auto bg-none flex flex-nowrap justify-center items-center'>
           <div className='grid grid-cols-1 md:grid-cols-3 w-full gap-y-10'>
             {/* First video */}
-            <div className='col-span-1 sm:h-auto'>
+            <div className='col-span-1'>
               <video
                 autoPlay={true}
-                className='z-10 w-full sm:w-auto h-full object-cover'
+                className='z-10 w-full h-[30rem] md:h-full mx-auto md:w-full object-cover'
                 loop
                 muted
                 playsInline
@@ -76,7 +76,7 @@ const Corporate = () => {
             <div className='col-span-1'>
               <video
                 autoPlay={true}
-                className='z-10 h-full object-fill'
+                className='z-10 w-full h-[40rem] md:h-full mx-auto md:w-full object-cover'
                 loop
                 muted
                 playsInline
