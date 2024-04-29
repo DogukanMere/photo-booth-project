@@ -12,7 +12,7 @@ const Intro = () => {
         <div className='order-2 lg:order-1 w-full h-full flex items-center justify-center flex-col'>
           <h3 className='text-[2rem] font-bold text-primaryLight text-start mb-5'>Capture the Aura of Your Event with 360 Booth Where Every Moment Shines!</h3>
           <p className='text-fcPrimary leading-8 text-[1rem] tracking-wide text-balance'>
-            Experience the magic of immersive video with <b>Aura Photobooth</b>, designed to elevate <b>weddings, corporate events, homecomings, private gatherings, and more</b>. Our premier package showcases state-of-the-art proprietary technology, ensuring exceptional 360-degree videos, seamlessly integrated with social media platforms for instant sharing. Backed by the dedicated service of our skilled attendant, every detail is captured with precision.
+            Experience the magic of immersive video with <b>Aura Photobooth</b>, designed to elevate <b>weddings, corporate events, homecomings, private gatherings, and more</b>. Our premier package showcases state-of-the-art proprietary technology, ensuring exceptional 360 videos, seamlessly integrated with social media platforms for instant sharing. Backed by the dedicated service of our skilled attendant, every detail is captured with precision.
           </p>
         </div>
         {/* Right */}

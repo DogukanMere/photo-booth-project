@@ -6,7 +6,7 @@ import { MdOutlineSlowMotionVideo, MdOfflineShare } from 'react-icons/md';
 const FeaturesBooth = () => {
   return (
     <div className='w-screen min-h-[30rem] py-[8rem] pb-[10rem] bg-primaryLight relative'>
-      <div className='grid grid-cols-1 lg:grid-cols-2 max-w-[1420px] mx-auto items-center justify-center px-10 gap-x-6 gap-y-6'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 max-w-[1420px] mx-auto items-center justify-center px-2 sm:px-10 gap-x-6 gap-y-6'>
         <div className='z-20 absolute top-[-70px] mx-auto flex justify-start text-[3rem] select-none w-[1420px]'>
           <h3 className='bg-primaryLight px-10 py-5 text-paper rounded-t-2xl text-[1.3rem] font-semibold tracking-tight'>Features</h3>
         </div>

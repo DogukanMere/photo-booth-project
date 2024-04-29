@@ -45,7 +45,7 @@ const Glambot = () => {
               </div>
             </div>
           </div>
-          <div className='flex order-1 sm:order-2 flex-col gap-y-5 items-center justify-center col-span-1 overflow-hidden rounded-[2.6rem] lg:rounded-[4.2rem] max-w-[25rem] mx-auto'>
+          <div className='flex order-1 sm:order-2 flex-col gap-y-5 items-center justify-center col-span-1 overflow-hidden rounded-[2.4rem] lg:rounded-[3.8rem] max-w-[25rem] mx-auto'>
             <video
               autoPlay={true}
               className='z-10 h-full object-cover w-[15rem] lg:w-[25rem]'
@@ -55,7 +55,7 @@ const Glambot = () => {
               onClick={(e) => {
                 e.preventDefault();
               }}>
-              <source src='/video_mobile.mp4' type='video/mp4' />
+              <source src='/glambot_mobile.mp4' type='video/mp4' />
             </video>
           </div>
         </div>

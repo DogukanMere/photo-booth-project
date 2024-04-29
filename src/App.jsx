@@ -7,6 +7,8 @@ import Contact from './pages/Contact';
 import Weddings from './pages/Weddings';
 import ErrorPage from './components/ErrorPage';
 import Glambot from './pages/Glambot';
+import Corporate from './pages/Corporate';
+import About from './pages/About';
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
         <Route path='/*'>
           <Route path='' index element={<Homepage />} />
           <Route path='contact' element={<Contact />} />
+          <Route path='about' element={<About />} />
           <Route path='wedding' element={<Weddings />} />
           <Route path='glambot' element={<Glambot />} />
+          <Route path='corporate' element={<Corporate />} />
           <Route path='*' element={<ErrorPage />} />
         </Route>
       </Routes>
