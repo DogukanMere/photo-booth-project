@@ -60,7 +60,7 @@ const Contact = () => {
   const inputClassName = (inputName) => `text-[0.8rem] text-fcPrimary font-light px-3 py-1 border-b-[1px] outline-0 ${focusedInput === inputName ? 'border-primaryLight' : 'border-grey300'} transition-all duration-500`;
 
   return (
-    <div className='w-screen min-h-[35rem] flex flex-col justify-center py-[6rem] pb-[7rem] bg-secondaryLight relative'>
+    <div className='w-screen min-h-[35rem] flex flex-col justify-center px-2 py-[2rem] bg-secondaryLight relative'>
       <div className='max-w-[1420px] mx-auto items-center justify-center px-4 sm:px-10 py-10 bg-paper rounded-lg'>
         <div className={`${state.succeeded ? 'flex' : 'hidden'} flex-col text-fcPrimary text-[0.9rem] gap-y-4`}>
           <h2 className='text-[1.3rem] text-center mb-6 text-primaryLight font-medium'>Thank You!</h2>

@@ -1,11 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const NavItem = (props) => {
+  const location = useLocation();
+  console.log(location);
   const { itemName, link, textColor, textSize } = props;
   return (
     <div>
-      <Link to={link} className={`${textColor} ${textSize} font-[400] hover:brightness-[2.5] transition-all duration-150`}>
+      <Link to={link} className={`${location?.pathname === props?.navTag ? 'text-secondaryMain hover:brightness-[1.3] ' : `${textColor} hover:brightness-[2.5] `} ${textSize} font-[400] transition-all duration-150`}>
         {itemName}
       </Link>
     </div>

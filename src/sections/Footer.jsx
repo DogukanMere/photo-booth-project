@@ -51,6 +51,9 @@ const Footer = () => {
               <Link to={`/contact`} className={`${commonStyle.link}`}>
                 Contact
               </Link>
+              <Link to={`/about`} className={`${commonStyle.link}`}>
+                About Us
+              </Link>
             </div>
             <div className='flex flex-nowrap flex-col items-start text-[0.9rem] text-paper gap-y-3 row-span-1'>
               <h4 className='font-bold text-[0.9rem]'>Get in touch</h4>
