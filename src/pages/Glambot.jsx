@@ -3,10 +3,16 @@ import { Link } from 'react-router-dom';
 import FeatureCard from '../components/FeatureCard';
 import { Tb360View } from 'react-icons/tb';
 import { PiNumberCircleOneBold, PiNumberCircleTwoBold, PiNumberCircleThreeBold } from 'react-icons/pi';
+import { Helmet } from 'react-helmet';
 
 const Glambot = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet='utf-8' />
+        <title>Glambot | Aura Photobooth</title>
+        <link rel='aura photobooth' href='https://auraphotobooth.ca/glambot' />
+      </Helmet>
       <div className='w-screen bg-paper text-[0.9rem]'>
         {/* FIRST TOP DIV  | Image & What is glambot */}
         <div className='max-w-[1420px] mx-auto bg-paper flex flex-col items-center pb-10 gap-y-10'>

@@ -1,9 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 const Weddings = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet='utf-8' />
+        <title>Weddings | Aura Photobooth</title>
+        <link rel='Aura photobooth' href='https://auraphotobooth.ca/wedding' />
+      </Helmet>
       <div className='w-screen bg-paper text-[0.9rem]'>
         {/* FIRST TOP DIV  | Corporate & Image */}
         <div className='max-w-[1420px] mx-auto bg-paper flex flex-col items-center gap-y-10'>

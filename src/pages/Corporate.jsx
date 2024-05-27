@@ -5,10 +5,16 @@ import { FaRegEye, FaHandshake } from 'react-icons/fa';
 import { BsCollectionPlayFill } from 'react-icons/bs';
 import GlambotAdvantageItem from '../components/GlambotAdvantageItem';
 import EventItem from '../components/EventItem';
+import { Helmet } from 'react-helmet';
 
 const Corporate = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet='utf-8' />
+        <title>Corporate | Aura Photobooth</title>
+        <link rel='aura photobooth' href='https://auraphotobooth.ca/corporate' />
+      </Helmet>
       <div className='w-screen bg-paper text-[0.9rem]'>
         {/* FIRST TOP DIV  | Corporate & Image */}
         <div className='max-w-[1420px] mx-auto bg-paper flex flex-col items-center gap-y-10'>

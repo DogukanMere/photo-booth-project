@@ -1,9 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
     <div className='w-screen min-h-[35rem] flex flex-col justify-center py-9 px-5 bg-secondaryLight relative'>
+      <Helmet>
+        <meta charSet='utf-8' />
+        <title>About | Aura Photobooth</title>
+        <link rel='aura photobooth' href='https://auraphotobooth.ca/about' />
+      </Helmet>
       <div className='max-w-[900px] mx-auto items-center justify-center px-4 py-10 bg-paper rounded-lg'>
         <h2 className='mb-10 text-[1.4rem] sm:text-[2rem] font-bold text-primaryLight text-center w-full leading-[2rem] sm:leading-[3rem] sm:text-start uppercase py-2 flex justify-center items-center text-nowrap'>About Us</h2>
         {/* 2 COL GRID */}
