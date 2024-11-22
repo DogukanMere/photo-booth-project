@@ -27,7 +27,7 @@ const FeaturesBooth = () => {
             onClick={(e) => {
               e.preventDefault();
             }}>
-            <source src='/video_mobile.mp4' type='video/mp4' />
+            <source src='/GlambotMobile.mp4' type='video/mp4' />
           </video>
         </div>
       </div>

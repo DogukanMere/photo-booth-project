@@ -27,7 +27,9 @@ const Corporate = () => {
                 <p className='w-full text-[1rem] sm:text-[1.2rem] mt-2'>We take your corporate event seriously, and we're here to support you every step of the way. We understand the importance of your mission and stand ready to elevate your event experience.</p>
               </div>
               <div className='w-full sm:w-[40%] flex items-center justify-start sm:justify-center'>
-                <Link to={'/contact'} className='w-full sm:w-fit sm:px-12 text-center bg-secondaryLight text-nowrap brightness-[1.2] border-4 rounded-2xl tracking-wide leading-7 border-secondaryLight py-3 text-primaryLight rounded-4xl text-[0.9rem] sm:text-[1.1rem] hover:bg-blackTrans hover:text-paper transition-all duration-300 uppercase font-bold'>
+                <Link
+                  to={'/contact'}
+                  className='w-full sm:w-fit sm:px-12 text-center bg-secondaryLight text-nowrap brightness-[1.2] border-4 rounded-2xl tracking-wide leading-7 border-secondaryLight py-3 text-primaryLight rounded-4xl text-[0.9rem] sm:text-[1.1rem] hover:bg-blackTrans hover:text-paper transition-all duration-300 uppercase font-bold'>
                   Book Now
                 </Link>
               </div>
@@ -67,7 +69,7 @@ const Corporate = () => {
                 onClick={(e) => {
                   e.preventDefault();
                 }}>
-                <source src='/corporate_glambot.mp4' type='video/mp4' />
+                <source src='/corporate1.mp4' type='video/mp4' />
               </video>
             </div>
             {/* Text */}
@@ -89,7 +91,7 @@ const Corporate = () => {
                 onClick={(e) => {
                   e.preventDefault();
                 }}>
-                <source src='/corporate_booth.mp4' type='video/mp4' />
+                <source src='/corporate2.mp4' type='video/mp4' />
               </video>
             </div>
           </div>

@@ -61,7 +61,7 @@ const Contact = () => {
   const inputClassName = (inputName) => `text-[0.8rem] text-fcPrimary font-light px-3 py-1 border-b-[1px] outline-0 ${focusedInput === inputName ? 'border-primaryLight' : 'border-grey300'} transition-all duration-500`;
 
   return (
-    <div className='w-screen min-h-[35rem] flex flex-col justify-center px-2 py-[2rem] bg-secondaryLight relative'>
+    <div className='w-screen min-h-[35rem] flex flex-col justify-center px-2 py-[2rem] bg-secondaryLight relative flex-1'>
       <Helmet>
         <meta charSet='utf-8' />
         <title>Contact | Aura Photobooth</title>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
-    <div className='w-screen min-h-[35rem] flex flex-col justify-center py-9 px-5 bg-secondaryLight relative'>
+    <div className='w-screen min-h-[35rem] flex flex-col justify-center py-9 px-5 bg-secondaryLight relative flex-1'>
       <Helmet>
         <meta charSet='utf-8' />
         <title>About | Aura Photobooth</title>
@@ -21,7 +21,9 @@ const About = () => {
           {/* Right Text */}
           <div className='col-span-1 flex flex-col gap-y-3 px-2'>
             <h3 className='mt-5 text-primaryLight font-bold uppercase tracking-wider text-[1.2rem] self-center'>About us header</h3>
-            <p className='tracking-wide leading-8 text-primaryLight text-[0.9rem]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque velit ab minus minima perferendis, iusto laudantium, ex voluptas cupiditate praesentium cum commodi similique fuga consequatur reprehenderit, quasi explicabo. At, debitis!</p>
+            <p className='tracking-wide leading-8 text-primaryLight text-[0.9rem]'>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque velit ab minus minima perferendis, iusto laudantium, ex voluptas cupiditate praesentium cum commodi similique fuga consequatur reprehenderit, quasi explicabo. At, debitis!
+            </p>
           </div>
         </div>
       </div>

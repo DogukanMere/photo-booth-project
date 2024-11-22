@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ErrorPage = () => {
   return (
-    <div className='bg-secondaryLight min-h-[50vh] flex items-center justify-center px-3'>
+    <div className='bg-secondaryLight min-h-[50vh] flex items-center justify-center px-3 flex-1'>
       <div className='max-w-[1420px] mx-auto px-7 py-14 bg-paper rounded-lg flex justify-center items-center my-20'>
         <div className='flex flex-col max-w-[700px] items-center px-2 sm:px-10 text-grey600 gap-y-4'>
           <img src='/not-found.png' alt='' className='max-w-[15rem] bg-' />

@@ -12,7 +12,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <div className='min-h-[100vh] bg-black overflow-x-hidden scroll-mx-0 relative'>
+    <div className='min-h-[100vh] bg-black overflow-x-hidden scroll-mx-0 relative flex flex-col'>
       <Header />
       {/* Margin for Navbar | safe space | height of navbar */}
       <div className='mt-[100px] md:mt-[120px]'></div>

@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet';
 
 const Homepage = () => {
   return (
-    <div>
+    <div className='flex-1'>
       <Helmet>
         <meta charSet='utf-8' />
         <title>Home | Aura Photobooth</title>

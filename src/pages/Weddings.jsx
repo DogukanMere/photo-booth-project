@@ -22,7 +22,9 @@ const Weddings = () => {
                 <p className='w-full text-[1rem] sm:text-[2rem] mt-2'>Infusing Aura into Timeless Memories.</p>
               </div>
               <div className='w-full sm:w-[40%] flex items-center justify-start sm:justify-center'>
-                <Link to={'/contact'} className='w-full sm:w-fit sm:px-12 text-center bg-secondaryLight text-nowrap brightness-[1.2] border-4 rounded-2xl tracking-wide leading-7 border-secondaryLight py-3 text-primaryLight rounded-4xl text-[0.9rem] sm:text-[1.1rem] hover:bg-blackTrans hover:text-paper transition-all duration-300 uppercase font-bold'>
+                <Link
+                  to={'/contact'}
+                  className='w-full sm:w-fit sm:px-12 text-center bg-secondaryLight text-nowrap brightness-[1.2] border-4 rounded-2xl tracking-wide leading-7 border-secondaryLight py-3 text-primaryLight rounded-4xl text-[0.9rem] sm:text-[1.1rem] hover:bg-blackTrans hover:text-paper transition-all duration-300 uppercase font-bold'>
                   Book Now
                 </Link>
               </div>
@@ -55,7 +57,7 @@ const Weddings = () => {
               onClick={(e) => {
                 e.preventDefault();
               }}>
-              <source src='/wedding_mobile.mp4' type='video/mp4' />
+              <source src='/GlambotMobile.mp4' type='video/mp4' />
             </video>
           </div>
         </div>
