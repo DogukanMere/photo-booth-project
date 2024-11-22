@@ -39,7 +39,7 @@ const options = [
 ];
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm('xpzvkgpo');
+  const [state, handleSubmit] = useForm('');
   const [focusedInput, setFocusedInput] = useState(null);
 
   if (state.succeeded) {
