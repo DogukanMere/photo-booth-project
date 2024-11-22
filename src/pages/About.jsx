@@ -22,10 +22,11 @@ const About = () => {
           <div className='col-span-1 flex flex-col gap-y-3 px-2'>
             <h3 className='mt-5 text-primaryLight font-bold uppercase tracking-wider text-[1.2rem] self-center'>About Aura Photo Booth</h3>
             <p className='tracking-wide leading-8 text-primaryLight text-[0.9rem]'>
-              Welcome to Aura Photo Booth, where every spin creates a memory that lasts a lifetime. Specializing in 360 photo booth experiences, we bring a touch of magic to weddings, birthday parties, corporate events, and celebrations of all kinds. Our state-of-the-art 360 Photo Booth and Glambot
-              technology capture your most joyful moments in stunning detail, providing guests with fun, interactive, and share-worthy keepsakes. Whether it’s a sparkling wedding, a lively birthday bash, or a professional corporate gathering, we ensure your event stands out with a unique and
-              captivating experience. At Aura Photo Booth, we’re passionate about delivering not just photos, but unforgettable experiences. From set-up to delivery, our dedicated team ensures every detail is picture-perfect, letting you and your guests focus on enjoying the moment. Let us turn your
-              special occasions into extraordinary memories. Experience the magic with Aura Photo Booth—where every moment shines.
+              Welcome to Aura Photo Booth, where every spin creates a memory that lasts a lifetime. Specializing in 360 photo booth experiences, we bring a touch of magic to weddings, birthday parties, corporate events, and celebrations of all kinds. <br /> <br />
+              Our state-of-the-art 360 Photo Booth and Glambot technology capture your most joyful moments in stunning detail, providing guests with fun, interactive, and share-worthy keepsakes. Whether it’s a sparkling wedding, a lively birthday bash, or a professional corporate gathering, we
+              ensure your event stands out with a unique and captivating experience.
+              <br /> <br /> At Aura Photo Booth, we’re passionate about delivering not just photos, but unforgettable experiences. From set-up to delivery, our dedicated team ensures every detail is picture-perfect, letting you and your guests focus on enjoying the moment.
+              <br /> <br /> Let us turn your special occasions into extraordinary memories. Experience the magic with Aura Photo Booth—where every moment shines.
             </p>
           </div>
         </div>
