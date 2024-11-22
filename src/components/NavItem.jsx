@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom';
 
 const NavItem = (props) => {
   const location = useLocation();
-  console.log(location);
   const { itemName, link, textColor, textSize } = props;
   return (
     <div>

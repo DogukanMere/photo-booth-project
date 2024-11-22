@@ -43,7 +43,10 @@ const Glambot = () => {
               <h2 className='mb-2 text-[1.3rem] sm:text-[2rem] font-bold text-primaryLight text-center w-full leading-[2rem] sm:leading-[3rem] sm:text-start uppercase'>Lights, Camera, Glamour! Step onto the Red Carpet with Glambot</h2>
               <div className='flex justify-center flex-col items-start px-5 sm:px-0 gap-y-3'>
                 <p className='text-center w-full sm:text-start uppercase tracking-[0.3rem]'>for everybody</p>
-                <p>But Glambot is more than just a camera. It's an experience. Watch as your guests light up with excitement as they step onto the red carpet, ready to unleash their inner superstar. With Glambot, everyone gets their moment to shine, creating unforgettable memories that will be cherished for years to come.</p>
+                <p>
+                  But Glambot is more than just a camera. It's an experience. Watch as your guests light up with excitement as they step onto the red carpet, ready to unleash their inner superstar. With Glambot, everyone gets their moment to shine, creating unforgettable memories that will be
+                  cherished for years to come.
+                </p>
                 <Link to={'/contact'} className='group mt-10 text-primaryLight font-semibold text-nowrap hover:brightness-150 transition-all duration-300 relative overflow-hidden'>
                   contact us {`>`}
                   <span className='w-full bg-none border-b-primaryLight border-b-[2px] absolute left-[-120px] group-hover:left-0 bottom-0 transition-all duration-300'></span>
@@ -61,7 +64,7 @@ const Glambot = () => {
               onClick={(e) => {
                 e.preventDefault();
               }}>
-              <source src='/glambot_mobile.mp4' type='video/mp4' />
+              <source src='/GlambotMobile.mp4' type='video/mp4' />
             </video>
           </div>
         </div>
@@ -82,8 +85,18 @@ const Glambot = () => {
         <div className='max-w-[1420px] mx-auto bg-paper flex-col items-center justify-center pb-10 gap-y-10'>
           <h2 className='mb-2 text-[2rem] sm:text-[2rem] font-bold text-primaryLight text-center w-full leading-[2rem] sm:leading-[3rem] sm:text-start uppercase pt-10 flex justify-center items-center'>Steps</h2>
           <div className='grid grid-cols-1 md:grid-cols-3 justify-center gap-x-4 gap-y-4 py-10 px-4'>
-            <FeatureCard cls={'bg-secondaryLight col-span-1 w-full'} icon={<PiNumberCircleOneBold className='text-[6rem] text-primaryLight self-center' />} text={`Step onto the red carpet and let your inner star shine! Strike your most fabulous pose and get ready to dazzle.`} header={`1. Prepare your movement Pose`} />
-            <FeatureCard cls={'bg-secondaryLight col-span-1 w-full'} icon={<PiNumberCircleTwoBold className='text-[6rem] text-primaryLight self-center' />} text={`We'll give you a countdown as our slow-motion camera begins to capture video clip in all its glamourous glory.`} header={`2. Lights, Camera, Action!`} />
+            <FeatureCard
+              cls={'bg-secondaryLight col-span-1 w-full'}
+              icon={<PiNumberCircleOneBold className='text-[6rem] text-primaryLight self-center' />}
+              text={`Step onto the red carpet and let your inner star shine! Strike your most fabulous pose and get ready to dazzle.`}
+              header={`1. Prepare your movement Pose`}
+            />
+            <FeatureCard
+              cls={'bg-secondaryLight col-span-1 w-full'}
+              icon={<PiNumberCircleTwoBold className='text-[6rem] text-primaryLight self-center' />}
+              text={`We'll give you a countdown as our slow-motion camera begins to capture video clip in all its glamourous glory.`}
+              header={`2. Lights, Camera, Action!`}
+            />
             <FeatureCard cls={'bg-secondaryLight col-span-1 w-full'} icon={<PiNumberCircleThreeBold className='text-[6rem] text-primaryLight self-center' />} text={`Capture Every Angle with Our Digital 360 Rotating Camera!`} header={`1.Prepare your movement Pose`} />
           </div>
         </div>
@@ -97,7 +110,9 @@ const Glambot = () => {
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center flex-col'>
               <h1 className='text-paper text-[2.5rem] tracking-wide sm:text-[2rem] md:text-[4rem] font-semibold text-nowrap'>Let's do this!</h1>
               <div className='mt-4'>
-                <Link to={'/contact'} className='w-full bg-secondaryLight brightness-[1.2] border-4 rounded-2xl tracking-wide leading-7 border-secondaryLight px-16 py-3 text-primaryLight rounded-4xl text-[0.9rem] sm:text-[1.1rem] hover:bg-blackTrans hover:text-paper transition-all duration-300 uppercase font-bold'>
+                <Link
+                  to={'/contact'}
+                  className='w-full bg-secondaryLight brightness-[1.2] border-4 rounded-2xl tracking-wide leading-7 border-secondaryLight px-16 py-3 text-primaryLight rounded-4xl text-[0.9rem] sm:text-[1.1rem] hover:bg-blackTrans hover:text-paper transition-all duration-300 uppercase font-bold'>
                   Book Now
                 </Link>
               </div>
