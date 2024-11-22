@@ -39,7 +39,7 @@ const options = [
 ];
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm('');
+  const [state, handleSubmit] = useForm('123sample');
   const [focusedInput, setFocusedInput] = useState(null);
 
   if (state.succeeded) {
